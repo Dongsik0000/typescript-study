@@ -4,7 +4,8 @@
     "module": "ESNEXT",
     "outDir": "dist",
     "rootDir": "src",
-    "strict": true,
+    "strict": true, // strictNullChecks Option의 상위 Option
+    // "strictNullChecks": false, => null 타입을 임시로 넣어야 할 때 사용
     "moduleDetection": "force"
   },
   "ts-node": {

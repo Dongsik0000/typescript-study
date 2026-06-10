@@ -9,13 +9,13 @@ let num7: number = NaN;
 
 // string
 let str1: string = "hello";
-let str2: string = 'hello';
+let str2: string = "hello";
 let str3: string = `hello`;
 let str4: string = `hello ${str1}`;
 
 // boolean
-let bool1 : boolean = true;
-let bool2 : boolean = false;
+let bool1: boolean = true;
+let bool2: boolean = false;
 
 // null
 let null1: null = null;
@@ -24,6 +24,7 @@ let null1: null = null;
 let unde1: undefined = undefined;
 
 // 리터럴 타입
+// 리터럴 -> 값
 let numA: 10 = 10;
 let strA: "hello" = "hello";
 let boolA: true = true;
