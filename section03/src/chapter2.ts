@@ -20,16 +20,16 @@ let unknownVar: unknown;
  * Never 타입
  */
 
-// 모든 타입의 서브 타입(공집합)
-function neverExam() {
-  let a: number = neverVar;
-  let b: string = neverVar;
-  let c: boolean = neverVar;
-  let d: null = neverVar;
-  let e: undefined = neverVar;
-  let f: [] = neverVar;
-  let g: {} = neverVar;
-}
+// 모든 타입의 서브 타입(공집합) 
+// function neverExam() {
+//   let a: number = neverVar; // error
+//   let b: string = neverVar; // error
+//   let c: boolean = neverVar; // error
+//   let d: null = neverVar; // error
+//   let e: undefined = neverVar; // error
+//   let f: [] = neverVar; // error
+//   let g: {} = neverVar; // error
+// }
 
 let neverVar: never;
 
